@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const cities = require('./cities');
 const { places, descriptors } = require('./seedHelpers');
 const Campground = require('../models/campground');
-const mongoUri =  "mongodb+srv://pushpendra:semidot123@cluster0.0ysxpco.mongodb.net/Mvc?retryWrites=true&w=majority";
+const mongoUri = "your atlas or compass connection link forEg: https://localhost:8000/restaurant";
 mongoose.connect(mongoUri, {
     useNewUrlParser: true,
     useCreateIndex: true,
