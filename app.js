@@ -11,8 +11,7 @@ const campgrounds = require("./routes/campgrounds");
 const reviews = require("./routes/reviews");
 const restaurants = require("./routes/restaurant")
 
-const uri =
-  "mongodb+srv://pushpendra:semidot123@cluster0.0ysxpco.mongodb.net/Mvc?retryWrites=true&w=majority";
+const uri ="your atlas or compass connection link forEg: https://localhost:8000/restaurant";
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
